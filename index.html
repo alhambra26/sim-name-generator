@@ -14,7 +14,46 @@
 
     <p>Generador de nombres para Los Sims</p>
 
-    <button onclick="generarNombre()">Generar nombre</button>
+    <h2>¿Qué quieres generar?</h2>
+
+    <label>
+        <input type="radio" name="tipo" value="nombre" checked>
+        Nombre
+    </label>
+
+    <label>
+        <input type="radio" name="tipo" value="apellido">
+        Apellido
+    </label>
+
+    <label>
+        <input type="radio" name="tipo" value="completo">
+        Nombre + apellido
+    </label>
+
+    <h2>Género</h2>
+
+    <label>
+        <input type="radio" name="genero" value="femenino">
+        Femenino
+    </label>
+
+    <label>
+        <input type="radio" name="genero" value="masculino">
+        Masculino
+    </label>
+
+    <label>
+        <input type="radio" name="genero" value="ambos" checked>
+        Ambos
+    </label>
+
+    <br><br>
+
+    <button onclick="generarNombre()">Generar</button>
+
+    <h2 id="resultado"></h2>
+
     <script src="names.js"></script>
     <script src="script.js"></script>
 
