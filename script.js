@@ -1,0 +1,3 @@
+function generarNombre() {
+    alert("¡Funciona!");
+}
