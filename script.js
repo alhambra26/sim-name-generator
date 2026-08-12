@@ -1,3 +1,7 @@
 function generarNombre() {
-    alert("¡Funciona!");
+    const nombreAleatorio = nombres[
+        Math.floor(Math.random() * nombres.length)
+    ];
+
+    alert(nombreAleatorio.nombre);
 }
